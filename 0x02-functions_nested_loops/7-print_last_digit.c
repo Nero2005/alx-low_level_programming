@@ -1,0 +1,20 @@
+#include "holberton.h"
+
+/**
+ *_abs - Check Holberton
+ * @r: An integre input
+ * Description: This function returns absolute value of a number
+ * Return: Absolut value of number r
+ */
+int print_last_digit(int r)
+{
+	int n;
+
+	if (r < 0)
+		n = -1 * (r % 10)
+	else
+		n = r % 10;
+
+	_putchar((n % 10) + '0');
+	return (n % 10);
+}
