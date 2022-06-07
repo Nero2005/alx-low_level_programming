@@ -5,7 +5,7 @@
  * Description: It prints the alphabet in lowercase followed by a new line
  * Return. Nothing
  */
-void _islower(void)
+int _islower(int c)
 {
 	char i;
 	int lower = 0;
