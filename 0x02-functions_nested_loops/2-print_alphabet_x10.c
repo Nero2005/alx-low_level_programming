@@ -5,7 +5,7 @@
  * Description: It prints the alphabet in lowercase 10 times followed by a new line
  * Return. Nothing
  */
-void print_alphabe_x10t(void)
+void print_alphabet_x10(void)
 {
 	char i;
 	int j;
