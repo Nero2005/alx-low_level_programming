@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 #include <unistd.h>
-#include "holberton.h"
+#include "main.h"
 
 /**
  * main - Check description
@@ -15,8 +15,8 @@ int main(void)
 	int i;
 
 	for (i = 0; i < 8; i++)
-		_putchar(word[i]);
-	_putchar('\n');
+		write(1, word[i], 1);
+	write(1, '\n', 1);
 
 	return (0);
 }
