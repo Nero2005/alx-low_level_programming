@@ -8,6 +8,8 @@
 
 int _isupper(int c)
 {
+	char cc = c;
+	printf("%c", cc);
 	if (c >= 65 || c <= 90)
 	{
 		return (1);
