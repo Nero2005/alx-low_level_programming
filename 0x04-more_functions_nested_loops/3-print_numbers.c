@@ -5,7 +5,7 @@
  * Return: 0
  */
 
-int print_numbers(void)
+void print_numbers(void)
 {
 	for (i = 0; i < 10; i++)
 	{
