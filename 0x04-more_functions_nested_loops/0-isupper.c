@@ -10,12 +10,12 @@
 int _isupper(int c)
 {
 	char cc = c;
-	printf("%c", cc);
-	if (c >= 65 || c <= 90)
+	printf("%c\n", cc);
+	if (cc >= 'A' || cc <= 'Z')
 	{
 		return (1);
 	}
-	else if (c >= 97 || c <= 122)
+	else
 	{
 		return (0);
 	}
