@@ -9,14 +9,17 @@
 
 int _isupper(int c)
 {
-	char cc = c;
-	printf("%c\n", cc);
-	if (cc >= 'A' || cc <= 'Z')
+	char uppercase = 'A';
+	int isupper = 0;
+
+	for (; uppercase <= 'Z'; uppercase++)
 	{
-		return (1);
+		if (c == uppercase)
+		{
+			isupper = 1;
+			break;
+		}
 	}
-	else
-	{
-		return (0);
-	}
+
+	return (isupper);
 }
