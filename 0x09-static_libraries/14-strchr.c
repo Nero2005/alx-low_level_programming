@@ -2,9 +2,12 @@
  */
 char *_strchr(char *s, char c)
 {
-	char *aux = dest;
+	char *aux = s;
 
-	while (*src)
-		*dest++ = *src++;
+	while (*aux)
+	{
+		if (aux == c)
+			return (aux)
+	}
 	return (aux);
 }
