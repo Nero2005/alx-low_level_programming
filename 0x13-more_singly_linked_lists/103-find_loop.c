@@ -1,4 +1,5 @@
-##include "lists.h"
+#include "lists.h"
+#include <stdio.h>
 
 /**
  * find_listint_loop - A function that finds the loop in a list
